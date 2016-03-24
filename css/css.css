@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li{
+        	margin:0;
+        	padding:20;
+        }
+ul,li{
+	margin:0;
+	padding:0;
+}
+#box{
+     overflow:auto;
+	 margin:20px;
+	 padding:20px;
+	 background-color:#eee;
+	 border:1px #999 solid;
+	 width:auto;
+    }
+.teamname{
+	  float:left;
+	  width:200px;
+	  height:80px;
+	  padding:20px;
+	  background-color:#FFFFFF;
+	  border:1px #999 solid;
+     }
+.teamname img{
+	   display:inline-block;
+	   float:left;
+	   background-color:#eee;
+	   border:1px #999 solid;
+	   width:80px;
+	   height:80px;
+       }
+.teamname h1{
+	      display:inline-block;
+		  float:left;
+		  font-size:12px;
+         }
+.introduction{
+	          margin: 0 140px 0 260px;
+			 padding:20px;
+			 background:#FFFFFF;
+			 border:1px #999 solid;
+}
+.introduction h2{
+	             font-size:24px;
+                }
+.introduction p{
+	            text-indent:2em;
+				font-size:20px;
+               }
+.personallogo{
+	   overflow:auto;
+	   display:inline-block;
+	   float:right;
+	   background-color:#FFFFFF;
+	   width:120px;
+	   border:1px #999 solid;
+	   margin-top:0px;
+      }
+	   
+.personallogo li{
+	      list-style:none;
+		padding:0;
+         }
+.personallogo ul{
+	      padding:0;
+         }
+.personallogo img{
+	       display:block;
+		   float:right;
+		   margin:20px;
+		   width:80px;
+		   height:80px;
+		   background-color:#eee;
+		   border:1px #999 solid;
+          }
